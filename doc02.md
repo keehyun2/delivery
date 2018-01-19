@@ -6,8 +6,10 @@
    - springboot, jpa, swagger-ui(spring-fox) 
    - [spring boot(gradle), jrebel](https://manuals.zeroturnaround.com/jrebel/standalone/index.html) version up 되면서 구조가 많이 변경됨.
    - swaager api 세팅 [참고 문서]( http://docs.swagger.io/spec.html)  , annotaion 에 대한 설명등
+   - user - add(입력),edit(수정),all(목록조회),view(상세조회) 완료 -  del(삭제) 작업예정
 3. front web 구현
    - angular4 ( typescript)
+   - [히어로즈 튜토리얼](https://angular.io/tutorial) 참고하여 만들기
 4. auth server
    - jjwt(java json web token), spring-security..
 5. file server (첨부파일)
