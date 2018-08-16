@@ -32,3 +32,9 @@
 
 #### 필요 장비 (Server)
 
+- DB 서버
+- rest 서버(backend was)
+- web 서버(front web http server)
+- session 관리 서버 (redis)
+- 파일 서버?
+
