@@ -1,16 +1,16 @@
 ## 기술 spec plan - MSA(micro service architecture)
 
 - DB - **Mysql** (jpa 로 DB structure 를 자동으로 구성하는 경우도 있음.)
-- 형상관리 - **github**(오픈소스화)
-- 배포 툴 - **travis **( 무료이고, github 에서 제공하는 서비스, jenkins 써도되는데,  )
+- 형상관리 - **Github**(오픈소스화)
+- 배포 툴 - **Travis **( 무료이고, github 에서 제공하는 서비스, jenkins 써도되는데,  )
 - Back End (rest) - **spring boot, jpa, embeded tomcat, jjwt(java json web token), SMS**
 - Session 관리 - **Redis**
 - API 문서 - **Swagger-UI**
 - 검색엔진 - **Elastic Search**
 - 이슈트래커 - **MeisterTask** (유료 사용시 git, slack 등 연동되는게 많음.)
 - Web Server - **HAProxy** (nginx 에 비해 캐싱 기능이 부족한듯한데, 모니터링 등이 좋은듯)
-- FronEnd - **Vue.js, [Element](https://element.eleme.io/#/en-US)** 
-- 커뮤니티 - **Slack** 
+- FronEnd - **Vue.js** 
+- 커뮤니티 - **Slack**
 - 데이터 시각화 - **Kibana**
 - 개발환경 공유 - **Docker** (java 8 및 was 환경 공유)
 
