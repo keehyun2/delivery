@@ -1,22 +1,17 @@
-## 기술 spec plan - MSA(micro service architecture)
+## plan - MSA(micro service architecture)
 
-- DB - **Mysql** (jpa 로 DB structure 를 자동으로 구성하는 경우도 있음.)
-- 형상관리 - **Github**(오픈소스화)
-- 배포 툴 - **Travis **( 무료이고, github 에서 제공하는 서비스, jenkins 써도되는데,  )
-- Back End (rest) - **spring boot, jpa, embeded tomcat, jjwt(java json web token), SMS**
+- DB - **Mysql**
+- 형상관리 - **Bitbucket - private repository, Docker - private registry**
+- 배포 툴 - **Jenkins - docker publish** 
+- Back End (rest) - **spring boot, spring data(hibernate,jpa), embeded tomcat, jjwt(java json web token), SMS**
 - Session 관리 - **Redis**
-- API 문서 - **Swagger-UI**
+- API Document - **Swagger-UI**
 - 검색엔진 - **Elastic Search**
 - 이슈트래커 - **MeisterTask** (유료 사용시 git, slack 등 연동되는게 많음.)
 - Web Server - **HAProxy** (nginx 에 비해 캐싱 기능이 부족한듯한데, 모니터링 등이 좋은듯)
 - FronEnd - **Vue.js** 
 - 커뮤니티 - **Slack**
 - 데이터 시각화 - **Kibana**
-- 개발환경 공유 - **Docker** (java 8 및 was 환경 공유)
-
-#### 보류 기술
-
-- aws - ec2 최저 사양 한달에 10달러(만원꼴) 
 
 #### 코드 스타일 가이드
 
@@ -33,7 +28,7 @@
 #### 필요 장비 (Server)
 
 - DB 서버
-- rest 서버(backend was)
+- rest 서버(backend was) - ec2 최저 사양 한달에 10달러(만원꼴) 
 - web 서버(front web http server)
 - session 관리 서버 (redis)
 - 파일 서버?
