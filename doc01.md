@@ -1,7 +1,7 @@
 ## plan - MSA(micro service architecture)
 
 - DB - **Mysql**
-- 형상관리 - **Bitbucket (private git repository), treescale(private docker registry)**
+- 형상관리 - **Bitbucket (private git repository), [Canister](https://canister.io)(private docker registry)**
 - 배포 툴 - **Jenkins - docker publish** 
 - Back End (rest) - **spring boot, spring data(hibernate,jpa), embeded tomcat, jjwt(java json web token), SMS**
 - Session 관리 - **Redis**
